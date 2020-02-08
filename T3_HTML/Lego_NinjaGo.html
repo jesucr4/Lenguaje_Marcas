@@ -7,51 +7,58 @@
         body {
 			margin: 50px;
 			padding: 0px;
-			background: rgba(124, 124, 124, 0.397);
-			font-family: 'Open Sans', sans-serif;
+            background-image: url(../T3_HTML/imagenes/LegoNinjaGo.jpg);
+            font-family: 'Open Sans', sans-serif;
 			font-size: 11pt;
 			color: rgb(12, 0, 0);
 		}
 		h1 {
-			color: rgb(108, 140, 199);
-            background: rgb(238, 216, 14);
+			color: rgb(10, 10, 10);
+            font-size: 24pt;
             text-align: center;
 		}
         h2 {
-            color: rgb(238, 216, 14);
-            background: royalblue;
+            color: rgb(19, 19, 18);
             text-align: center;
         }
         ul li{
             list-style-type: lower-greek;
-            background:royalblue
-        }
+            font-size: 20pt;
+            font-weight: bold;
+            }
+        .parrafopropio {
+			font-size: 20pt;
+            font-weight: bold;
+		}
         .tituloTabla {
             font-size: 20pt;
-            background: salmon;
+            background: rgb(170, 170, 170);
         }
         .nombreNinja {
 			text-align:center;
 			vertical-align:top;
             font-weight: bold;
             font-size: 14pt;
-            background-color: salmon;
+            background-color: rgb(206, 205, 205);
         }
         .descripcionNinja{
             text-align: left;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 12pt;
-            background-color: sandybrown;
+            background-color: rgb(150, 150, 150);
         }
         #descripcionSerie{
             text-align:center;
 			vertical-align:top;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14pt;
+            color: rgb(8, 8, 8);
         }
         a {
 			color: rgb(0, 0, 0);
 		}
 		a:hover {
-			color: rgb(252, 1, 1);  
+			color: rgb(199, 196, 196);  
 			font-weight: bold;
 			text-decoration: none;
 		}
@@ -66,7 +73,7 @@
     <h1><a href="https://es.wikipedia.org/wiki/Lego_Ninjago:_Masters_of_Spinjitzu#Descripci%C3%B3n" >Lego Ninjago</a></h1>
     <hr/>
     <h2>Personajes</h2>
-    <p>Lego Ninjago es una serie para niños, vamos a ver los siguientes personajes:</p>
+    <p class="parrafopropio" >Lego Ninjago es una serie para niños, vamos a ver los siguientes personajes:</p>
     <ul>
         <li>Lloyd</li>
         <li>Garmadon</li>
@@ -91,14 +98,14 @@
             <td colspan="2" class="descripcionNinja"> Antes del comienzo de la serie, un joven Garmadon fue mordido por el Gran Devorador e infectado con el mal.<br> La corrupción lo transformó en Garmadon Señor , un villano hambriento de poder que se desempeñó como el principal antagonista de las dos primeras temporadas de la serie.</td>
         </tr>
         <tr>
-            <td align="center" rowspan="2"> <img src="../T3_HTML/imagenes/SenseiWu.jpg"/></td>
+            <td align="center" rowspan="2"> <img src="../T3_HTML/imagenes/SenseiWu.png"/></td>
             <td colspan="2" class="nombreNinja"> SenseiWu </td>
         </tr>
         <tr>
             <td colspan="2" class="descripcionNinja">  Sensei Wu es el hijo menor del Primer Maestro del Spinjitzu. En la infancia de Wu, él y Garmadon eran los mejores amigos.<br> El es la panificacion de la paciencia tal y como se muestra al entrenar a los jóvenes ninjas<br>Tras restablecer el equilibrio por el momento su siguiente desafio es ayudar a los ninjas a descubrir su potencial.</td>
         </tr>
         <tr>
-            <td colspan="4" align="center"><a id="descripcionSerie"> Un grupo de guerreros ninja defiende su ciudad, Ninjago, de un malvado señor de la guerra llamado Garmadon, quien además es el padre de uno de los guerreros que se oponen a él.</a>
+            <td colspan="4" align="center" class="descripcionNinja"><a id="descripcionSerie"> Un grupo de guerreros ninja defiende su ciudad, Ninjago, de un malvado señor de la guerra llamado Garmadon, quien además es el padre de uno de los guerreros que se oponen a él.</a></td>
             
         </tr>
     </table>

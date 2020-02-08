@@ -1,0 +1,361 @@
+
+
+#divPrincipal{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#banner {
+    margin-top: 50pt;
+    width: 100%;
+    float: right;
+    text-align: center;
+    background-color: white;
+  
+}
+
+.barraSuperior {
+    margin-top: 0pt;
+    width: 100%;
+    height: 50pt;
+    position: fixed;
+    display: inline-block;
+    padding: 5pt;
+    margin-left: 5%;
+    }
+.opcionesBarraSuperior {
+    width: 12%;
+    height: 60%;
+    background-color: rgb(3, 66, 148);
+    display: inline-block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1pt;
+  }
+
+.historia{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 1000pt;
+}
+
+.textoImagen {
+    width: 100%;
+    height: 100%;
+    
+}
+
+a:hover {
+    color: rgb(216, 216, 216);  
+    font-weight: bold;
+    text-decoration: none;
+}
+a {
+    color: rgb(248, 252, 252);  
+}
+
+.contenedorTarjetas {
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+
+.tarjeta {
+    padding: 1%;
+    display: inline-block;
+}
+
+
+.tarjetaUnCuarto {
+    width: 22%;
+}
+.imagenAnchoCompleto {
+    width: 70%;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.imagenAnchoAlto {
+    width: 100%;
+    height: 100%;
+    
+}
+.parrafopropio{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 20pt bold;
+    text-align: justify;
+}
+.nombreEquipo {
+    font-weight: 20pt bold;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 25pt;
+    color: rgb(75, 4, 240);
+    
+    margin-top: 25pt;
+}
+
+.imagenHistoria{
+    margin-left: 150pt;
+    margin-right: 150pt;
+    width: 70%;
+    height: 25%;
+    display: block;
+}
+.descripcion {
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 12pt;
+}
+.menuPrincipal {
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+
+#tabla {
+    margin-left: 175px;
+    margin-right: 100px;
+    margin-top: 50pt;
+    width: 70%;
+    border: 3px black ;
+    align-content: center;
+}
+
+.nombreJugador{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12pt ;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(58, 4, 146);
+}
+
+.encabezadoTabla {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(45, 6, 107);
+}
+
+.jugador{
+    width: 100pt;
+    height: 150pt;
+}
+
+.video{
+    margin-left: 2%;
+    margin-right: 1%;
+    width: 90%;
+    height: 315px;
+       
+}
+
+.modoVideo{
+    width: 45%;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+
+.escudo{
+    text-align: left;
+    width: 100%;
+    height: 100pt;
+   margin-left: 15pt;
+    background-color: white;
+}
+.descripcionClub{
+    width: 70%;
+    height: 100pt;
+    float: right;
+    text-align: justify;
+    margin-right: 20pt;
+}
+
+.estadioClub{
+    float: right;
+    width: 50%;
+    height: 55%;
+    background-color: black;
+    margin-top: 100pt;
+    margin-right: 5%;
+}
+
+.descripcionEstadio{
+    float: left;
+    width: 40%;
+    height: 40%;
+    margin-top: 100pt;
+    margin-left: 3%;
+    margin-bottom: 20pt;
+    
+}
+/* CREACIÓN LISTA ORDENADA Y DESORDENADA */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  ul#menu {
+    height: 35px;
+    width: 100%;
+  }
+  
+  ul#menu li {
+    height: 35px;
+    background-color: rgb(3, 66, 148);
+    transition: 0.25s;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    display: table-cell;
+    color: #fff;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  ul#menu li:hover {
+    background: rgb(15, 0, 0);
+  }
+  
+  ul#menu ul {
+    display: none;
+    position: absolute;
+    top: 35px;
+    margin: 0;
+    box-shadow: 1px 1px 1px black;
+  }
+  
+  ul#menu ul li {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+  }
+  
+  ul#menu li:hover ul ul,
+  ul#menu li:hover ul ul ul {
+    display: none;
+  }
+  
+  ul#menu li:hover ul,
+  ul#menu ul li:hover ul,
+  ul#menu ul ul li:hover ul {
+    display: table-cell;
+    margin-left: -10px;
+  }
+/* CSS USADO PARA PÁGINA WEB DE JUGADOR*/
+  .imagenJugador{
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    display: block;
+}
+  
+.webJugador{
+    width: 90%;
+    height: 90%;
+    
+    }
+
+
+    /* FORMULARIO*/
+    
+    .myform{
+        margin: auto;
+        widows: 390px;
+        padding:10px;
+        height: 70%;
+        
+    }
+    
+    #stylized{
+        background-color: rgba(57, 193, 211, 0.829);
+    }
+    #stylized h1 {
+        font-size:14px;
+        font-weight:bold;
+        margin-bottom:8px;
+    }
+    #stylized p{
+        font-size:11px;
+        color:#666666;
+        margin-bottom:20px;
+        border-bottom:solid 1px #b7ddf2;
+        padding-bottom:10px;
+    }
+    #stylized label{
+        display:block;
+        font-weight:bold;
+        text-align:right;
+        width:140px;
+        float:left;
+    }
+    #stylized .small{
+        color:#000000;
+        display:block;
+        font-size:11px;
+        font-weight:normal;
+        text-align:right;
+        width:140px;
+    }
+    #stylized .smallUnlimited{
+        color:#666666;
+        display:block;
+        font-size:11px;
+        font-weight:normal;
+        text-align:left;
+        /*width:140px;*/
+    }
+    .campoNormal{
+        float:left;
+        font-size:12px;
+        padding:4px 2px;
+        /*border:solid 1px #aacfe4;*/
+        width:200px;
+        margin:2px 0 20px 10px;
+    }
+    
+    .campoMenor{
+        float: left;
+        font-size: 12px;
+        padding: 4px 2px;
+        text-align: left;
+        margin: 2px 150px 20px 7px;
+    }
+    .campoMenorSinEspacioInferior{
+    float: left;
+    font-size: 12px;
+    padding: 4px 2px;
+    text-align: left;
+    margin: 2px 150px 0px 7px;
+        }
+    
+    .boton{
+        clear:both;
+        margin-left:150px;
+        width:125px;
+        height:31px;
+        background:#666666 url(img/button.png) no-repeat;
+        text-align:center;
+        line-height:31px;
+        color:#FFFFFF;
+        font-size:11px;
+        font-weight:bold;
+    }	

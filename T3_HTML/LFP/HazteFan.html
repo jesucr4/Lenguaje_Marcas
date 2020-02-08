@@ -1,0 +1,107 @@
+
+<html>
+<head>
+	<link href="css/index.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body>
+	<div id="divPrincipal">
+		<div id="banner">
+		  <img src="imagenes/logoliga.png"/>
+		</div>  
+		<div class="barraSuperior">
+		  <div class = "opcionesBarraSuperior"><a href="index.html">
+			  <p class="menuPrincipal">Inicio</p></a>
+		 </div>
+		  <div class = "opcionesBarraSuperior">
+			   <p class="menuPrincipal">Historia</p>
+		  </div> 
+		  <div class = "opcionesBarraSuperior">
+			   <p class="menuPrincipal">Clubs</p>
+		   </div> 
+		   <div class= "opcionesBarraSuperior"> 
+				<p class="menuPrincipal">Estadísticas</p>
+		   </div> 
+		   <div class = "opcionesBarraSuperior">
+			   <p class="menuPrincipal">Clasificación</p>
+		   </div> 
+		   <div class = "opcionesBarraSuperior">
+			  <p class="menuPrincipal"> Jóvenes promesas</p>
+		  </div> 
+		   <div class = "opcionesBarraSuperior">
+			   <p class="menuPrincipal">Únete</p>
+		   </div> 
+	   </div>
+
+
+	<div id="stylized" class="myform">
+		<h1>LaLigaFans</h1>
+		<span class="smallUnlimited">¡Rellena el formulario para apoyar a tu equipo!</span>
+		<p/>
+	<form id="form1" name="form1" method="post" action="/ServletEjemploFormularios">
+	
+		<label>Nombre <br>y apellidos:<span class="small">¿Como te llamas fan?</span></label>
+		<input type="text" name="Nombre" id="Nombre" class="campoNormal"/>
+	
+		<label for="Apodo">Apodo:<span class="small">Tu nombre en <br>la comunidad futbolera</span></label>
+		<input type="text" name="Apodo" id="Apodo"  class="campoNormal" />
+
+	
+		<label for="Sentimiento">Sentimiento:<span class="small">De donde viene la pasión por tu equipo</span></label>
+		<textarea name="Descripcion" id="Descripcion" rows="5"  class="campoNormal"></textarea>
+	
+		<label> Lugar de peregrinación</label>
+		<label><span class="small">Bar</span></label>
+		<input type="radio" name="Lugar" value="1" id="Lugar_1" class="campoMenorSinEspacioInferior"/>
+		<label><span class="small">Estadio</span></label>
+		<input type="radio" name="Lugar" value="2" id="Lugar_2" class="campoMenor"/>
+		
+		
+		<br>
+		<label for="select">Equipo<span class="small">Cuál es tu equipo favorito</span></label>
+		<select name="select" id="select" class="campoNormal">
+		<option value="1">Alaves</option>
+		<option value="2">Athletic</option>
+		<option value="3">Atlético de Madrid</option>
+		<option value="4">Barcelona</option>
+		<option value="5">Betis</option>
+		<option value="6">Celta</option>
+		<option value="7">Eibar</option>
+		<option value="8">Espanyol</option>
+		<option value="9">Getafe</option>
+		<option value="10">Granada</option>
+		<option value="11">Leganés</option>
+		<option value="12">Levante</option>
+		<option value="13">Mallorca</option>
+		<option value="14">Osasuna</option>
+		<option value="15">Real Sociedad</option>
+		<option value="16">Real Madrid</option>
+		<option value="17">Real Valladolid</option>
+		<option value="18">Sevilla</option>
+		<option value="19">Valencia</option>
+		<option value="20">Villareal</option>
+		</select>
+
+	
+		<label for="select2">Fanático<span class="small">¿Cuántas veces<br> acudes al estadio
+			<br> por temporada?</span></label>
+		<select name="select2" size="5" id="select2" class="campoNormal">
+		<option value="1">1-2</option>
+		<option value="2">3-5</option>
+		<option value="3">5-8</option>
+		<option value="4">8-12</option>
+		<option value="5">12-15</option>
+		<option value="6">+15</option>
+		
+		</select>
+
+	
+		<input name="oculto" type="hidden" id="oculto" value="valorOculto" />
+
+	
+		<input type="submit" name="Enviar" id="Enviar" value="Enviar el formulario" class="boton"/>
+	
+	</form>
+	</div>
+</div>
+</body> 
+</html>
